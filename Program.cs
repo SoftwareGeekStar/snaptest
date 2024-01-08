@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
@@ -42,6 +42,8 @@ foreach (var item in input)
     }
 }
 
+if (a.Count > 0)
+    output = false;
 if (valid)
     Console.WriteLine(output);
 else
